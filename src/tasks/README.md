@@ -11,8 +11,8 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|         |         |
-|2|         |         |
-|3|         |         |
-|4|         |         |
-|5|Political Rationale| The entire basis of the political rationale is to create a document upon which we could use as a basis to know if the direction of our current application is viable or not|
+|1|Literature review |Find parameters that can help us identify the quality of water. Find water quality standards related to those parameters. Investigate the best approaches to extract satellite data.|
+|2|Data Collection | Exploring more data sources and collecting data|
+|3|Exploratory Data Analysis |Performing exploratory data analysis to gain insights|
+|4|Time-series analysis | Performing time-series analysis to gain insights |
+|5|Machine Learning| Performing preprocessing and applying multiple machine learning algorithms to predict water quality|
