@@ -10,19 +10,19 @@ logging.basicConfig(
 dir = "src"
 # list of files:
 list_of_files = [
-    f"{dir}/data/UpperLake/README.md",
-    f"{dir}/data/KaliyasotDam/README.md",
-    f"{dir}/data/MotiaTalab/README.md",
-    f"{dir}/data/NawabSiddiquiHasanKhanTalaab/README.md",
-    f"{dir}/data/SarangpaniLake/README.md",
-    f"{dir}/data/HathaikhedaDam/README.md",
-    f"{dir}/data/LowerLake/README.md",
-    f"{dir}/data/ManitLake/README.md",
-    f"{dir}/data/JawaharBaalUdyanLake/README.md",
-    f"{dir}/data/ShahpuraLake/README.md",
-    f"{dir}/data/KerwaDam/README.md",
-    f"{dir}/data/LendiyaTalab/README.md",
-    f"{dir}/data/NawabMunshiHussainKhanTalab/README.md",
+    f"{dir}/visualizations/UpperLake/README.md",
+    f"{dir}/visualizations/KaliyasotDam/README.md",
+    f"{dir}/visualizations/MotiaTalab/README.md",
+    f"{dir}/visualizations/NawabSiddiquiHasanKhanTalaab/README.md",
+    f"{dir}/visualizations/SarangpaniLake/README.md",
+    f"{dir}/visualizations/HathaikhedaDam/README.md",
+    f"{dir}/visualizations/LowerLake/README.md",
+    f"{dir}/visualizations/ManitLake/README.md",
+    f"{dir}/visualizations/JawaharBaalUdyanLake/README.md",
+    f"{dir}/visualizations/ShahpuraLake/README.md",
+    f"{dir}/visualizations/KerwaDam/README.md",
+    f"{dir}/visualizations/LendiyaTalab/README.md",
+    f"{dir}/visualizations/NawabMunshiHussainKhanTalab/README.md",
 ]
 
 for filepath in list_of_files:
