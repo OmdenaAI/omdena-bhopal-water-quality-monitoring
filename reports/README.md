@@ -1,7 +1,5 @@
 # **FINAL REPORT:** 
-<p align="center" style="color:white;font-size:25px;">
-    <b>Monitoring the Water Quality in Bhopal Region using Satellite Imagery and GIS Techniques</b>
-</p>
+# Monitoring the Water Quality in Bhopal Region using Satellite Imagery and GIS Techniques
 
 ## A project by Omdena VIT Bhopal University Local Chapter
 
