@@ -85,4 +85,7 @@ def get_Salanity(start_date, end_date):
     return df
 ```
 
+<br>
+This report was written and submitted by Vaasu Bisht, data science intern at an Indian healthcare start, who takes full responsibility for any mistake or inaccuracy in it.
+<br>
 
