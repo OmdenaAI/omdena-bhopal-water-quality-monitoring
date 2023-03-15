@@ -16,12 +16,73 @@ The primary objective of this challenge is to find effective ways to monitor wat
 
 The challenge, which united an international team of AI engineers over 5 weeks, was led by [Vaasu Bisht](https://github.com/vaasu2002) and [Eeman Majumder](https://github.com/Eeman1113). The common language for the chapter was English. Platforms such as GitHub, Notion, Asana, and a dedicated Slack channed were used to coordinate and keep track of the engineer's work.
 
+**The GitHub repository for the project will be made available shortly after the project completion:**
 
-# Data Collection 
+
+# Our solution
+The team developed a user-friendly visualization dashboard that integrates the processed data from satellite imagery and GIS techniques. The dashboard provides real-time updates on key water quality parameters, including temperature, pH, dissolved oxygen, and turbidity. It also allows for easy monitoring of trends and patterns in the data, enabling users to quickly identify any discrepancies in water quality and take necessary corrective action. The dashboard's visually appealing interface and user-friendly design make it an effective tool for decision-making and collaboration between various stakeholders, including government agencies, NGOs, and local communities. Overall, the dashboard is a valuable asset in the ongoing efforts to protect and improve the water quality in the Bhopal region.
+
+## The Data
+
+For our water quality monitoring project in the Bhopal region, we collected data from various lakes using satellite imagery and GIS techniques. The lakes we focused on include **Upper Lake, Lower Lake, Kaliyasot dam, Kerwa Dam, Shahpura Lake, Sarangpani Lake, Motia talab, Hathaikheda dam/lake, Nawab Munshi Hussain Khan Talab, Nawab Siddiqui Hasan Khan Talaab, Jawahar Baal Udyan Lake, Lendiya Talab, Manit lake, and bhojtal lake.**
+
+To effectively monitor the water quality in these lakes, we collected various parameters related to water quality, including **pH, salinity, turbidity, temperature, chlorophyll, suspended matter, dissolved oxygen, and dissolved organic matter (DOM)**. These parameters were chosen based on their relevance to water quality and their ability to provide insights into the health of the lakes.
+
+## Data Collection 
 
 Collecting data using the Google Earth Engine API can be a complex and daunting task. Our team found that one of the major challenges in the process was the lack of a standardized approach to data collection. Without a standardized methodology, the data collected from different sources can vary greatly, making analysis and comparison difficult. This is where our team stepped in, developing a standardized function and classes to improve the data collection process.
 
 Our standardized function and classes not only made data collection more efficient, but also helped to maintain consistency across multiple data sources. With our solution, we were able to collect data from various sources in a streamlined manner, ensuring that the collected data was consistent and accurate. We believe that our contribution will be valuable to researchers and scientists working in the field, and we are proud to have developed a solution that improves the quality and reliability of data collected using the Google Earth Engine API.
 
+Here's an example,
+```python
+def get_Salanity(start_date, end_date):
+
+# Selecting the satellite and AOI  
+# Sentinel 2A
+# copernicus/s2_sr 
+    sentinel = ee.ImageCollection("COPERNICUS/S2_SR").\
+               filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).\
+               filterDate(start_date, end_date)
+    AOI = geometry
+
+    sentinel_AOI = sentinel.filterBounds(AOI)
+
+#calculate NDSI
+    def calculate_NDSI(image):
+        ndsi = image.normalizedDifference(['B11', 'B12']).rename('NDSI')
+        return image.addBands(ndsi)
+    ndsi = sentinel_AOI.map(calculate_NDSI)
+
+# Mean NDSI
+    def calculate_mean_NDSI(image):
+        image = ee.Image(image)
+        mean = image.reduceRegion(reducer = ee.Reducer.mean().setOutputs(['NDSI']),
+                                geometry = AOI,
+                                scale = image.projection().nominalScale().getInfo(),
+                                maxPixels = 100000,
+                                bestEffort = True);
+        return mean.get('NDSI').getInfo()
+        
+# NDSI Mean Collection
+    Images_ndsi = ndsi.select('NDSI').toList(ndsi.size())
+    ndsi_coll = []
+    for i in range(Images_ndsi.length().getInfo()):
+        image = ee.Image(Images_ndsi.get(i-1))
+        temp_ndsi = calculate_mean_NDSI(image)
+        ndsi_coll.append(temp_ndsi)
+
+# Dates Collection
+    dates = np.array(ndsi.aggregate_array("system:time_start").getInfo())
+    day = [datetime.datetime.fromtimestamp(i/1000).strftime('%Y-%m-%d') for i in (dates)]
+
+# Dataframe for Salinity
+
+    df = pd.DataFrame(ndsi_coll, index = day, columns = ['Salinity'])
+    df.index = pd.to_datetime(df.index, format="%Y/%m/%d")
+    df.sort_index(ascending = True, inplace = True)
+
+    return df
+```
 
 
