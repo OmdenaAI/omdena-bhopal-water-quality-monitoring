@@ -8,15 +8,16 @@
   <img width="60%" height="60%" src="images/chapterLogo.png">
 </p>
 
+# Executive Summary
+'Monitoring the Water Quality in Bhopal Region using Satellite Imagery and GIS Techniques', a project by the Omdena VIT BHopal University Local Chapter led by chapter leads Vaasu Bisht and Eeman Majumder, lasted over 5 weeks and saw the cooperation of an international team of AI engineers. These cooperated steadily to define and to develop a comprehensive solution to the challenge of monitoring water quality in the Bhopal region. The team utilized cutting-edge GIS techniques and machine learning algorithms to analyze satellite imagery data and extract relevant parameters for water quality monitoring.The project's success can be attributed to the team's effective communication, careful planning, and dedication to achieving the project's objectives. By leveraging the power of data science and international collaboration, the team was able to provide a cost-effective and efficient solution to monitor water quality in the Bhopal region, which will contribute to ensuring sustainable development and protecting the environment.
 
-## Introduction
-
+# Introduction
 The primary objective of this challenge is to find effective ways to monitor water quality in the Bhopal region using satellite imagery. The purpose of this project is to reduce the cost of the monitoring process, as the current method utilizing IoT sensors requires a significant amount of maintenance, making it an expensive process. The main goal of the project is to identify parameters that can be used to monitor water quality, establish a standardized way of collecting real-time data, identify any discrepancies in the current monitoring process, and improve them as much as possible. To achieve these objectives, a detailed data analysis will be conducted. We will examine a range of satellite imagery data and extract the relevant parameters that can be used to monitor water quality. By analyzing this data, we will be able to identify patterns and trends that can be used to improve the monitoring process. Finally, we will develop a visualization dashboard using either Tableau or Power BI to present the collected data in a user-friendly and visually appealing manner. The dashboard will provide key metrics and insights related to water quality in the region, allowing for easy monitoring and informed decision-making based on the data collected.
 
 The challenge, which united an international team of AI engineers over 5 weeks, was led by [Vaasu Bisht](https://github.com/vaasu2002) and [Eeman Majumder](https://github.com/Eeman1113). The common language for the chapter was English. Platforms such as GitHub, Notion, Asana, and a dedicated Slack channed were used to coordinate and keep track of the engineer's work.
 
 
-## Data Collection 
+# Data Collection 
 
 Collecting data using the Google Earth Engine API can be a complex and daunting task. Our team found that one of the major challenges in the process was the lack of a standardized approach to data collection. Without a standardized methodology, the data collected from different sources can vary greatly, making analysis and comparison difficult. This is where our team stepped in, developing a standardized function and classes to improve the data collection process.
 
