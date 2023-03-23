@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Data Collection Applicaiton </title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+	<div class="first" style="width:50%; margin-top: 12%; margin-bottom: auto; margin-left: auto; margin-right: auto;">
+		<h1> Bhopal Lake Parameter Values: </h1>
+		<form method="POST">
+			<p>Select a parameter:</p>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="param" id="flexRadioDefault1" value="NDCI">
+			  <label class="form-check-label" for="flexRadioDefault1">
+			    NDCI
+			  </label>
+			</div>
+
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="param" id="flexRadioDefault1" value="NDTI">
+			  <label class="form-check-label" for="flexRadioDefault1">
+			    NDTI
+			  </label>
+			</div>
+
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="param" id="flexRadioDefault1" value="NDSI">
+			  <label class="form-check-label" for="flexRadioDefault1">
+			    NDSI
+			  </label>
+			</div>
+
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="param" id="flexRadioDefault1" value="DO">
+			  <label class="form-check-label" for="flexRadioDefault1">
+			    DO
+			  </label>
+			</div>
+
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="param" id="flexRadioDefault1" value="pH">
+			  <label class="form-check-label" for="flexRadioDefault1">
+			    pH
+			  </label>
+			</div>
+
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="param" id="flexRadioDefault1" value="Temperature">
+			  <label class="form-check-label" for="flexRadioDefault1">
+			    Temperature
+			  </label>
+			</div>
+
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="param" id="flexRadioDefault1" value="Dissolved Organic Matter">
+			  <label class="form-check-label" for="flexRadioDefault1">
+			    Dissolved Organic Matter
+			  </label>
+			</div>
+
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="param" id="flexRadioDefault1" value="Suspended Matter">
+			  <label class="form-check-label" for="flexRadioDefault1">
+			    Suspended Matter
+			  </label>
+			</div>
+
+
+
+	  		<button style="width:100%" type="submit" class="btn btn-success">Submit</button>
+		</form>
+	</div>
+
+
+	{% if selected_val %}
+		<div class="second" style="width:50%; margin:auto; border: 2px solid black; padding: 10px; margin-top: 10px">
+			<form method="POST" action = "/fetch/{{selected_val}}">
+				<label for="start_date"> Start Date </label>
+				<input type="date" name = "start_date" id="start_date">
+				<br><br>
+
+				<label for="end_date"> End Date </label>
+				<input type="date" name = "end_date" id="end_date">
+				<br><br>
+				<button style="width:100%; margin-top:10px" type="submit" class="btn btn-success">Submit</button>
+			</form>
+		</div>
+
+	{% endif %}
+</body>
+</html>
