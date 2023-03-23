@@ -19,6 +19,8 @@ coords = geometry()
 geometry = ee.Geometry.Polygon(coords)
 #geometry = ee.Geometry.Polygon([[77.39546956268856,23.265850898429633],[77.39576192347118,23.263643049175467],[77.39595504252026,23.263781040825478],[77.39609988180706,23.263738453582683],[77.39656926838467,23.26489905664098],[77.39658804384777,23.265207070617443],[77.39640297142574,23.265850201505117],[77.39614011494228,23.266249384632868],[77.3959443136842,23.26634548409614],[77.39546956268856,23.265850898429633]])
 
+
+#While defining the date time for Suspended Matter & Dissolved Organic Matter , It must be taken care of to take small interval of time due to lot of missing data in satellite which increases the time taken to fetch the results 
 choice = "Y"
 while choice != 'N':
     ans = int(input('To Fetch the data for following parameters Enter \n [1] NDCI \n [2] NDTI \n [3] NDSI \n [4] DO \n [5] pH \n [6] Temprature \n [7] Dissolved Organic Matter \n [8] Suspended Matter: '))
