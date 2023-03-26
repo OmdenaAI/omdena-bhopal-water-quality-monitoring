@@ -9,6 +9,25 @@
 		<h1> Bhopal Lake Parameter Values: </h1>
 		<form method="POST">
 			<p>Select a parameter:</p>
+
+			<select name="lake" class="form-select" aria-label="Default select example">
+			  <option selected>Select a lake</option>
+			  <option value="Upper Lake">Upper Lake</option>
+			  <option value="Lower Lake">Lower Lake</option>
+			  <option value="Kaliyasot Dam">Kaliyasot Dam</option>
+			  <option value="Kerwa Dam">Kerwa Dam</option>
+			  <option value="Shahpura Lake">Shahpura Lake</option>
+			  <option value="Sarangpani Lake">Sarangpani Lake</option>
+			  <option value="Motia Talab">Motia Talab</option>
+			  <option value="Hathaikheda Dam">Hathaikheda Dam</option>
+			  <option value="Nawab Munshi Hussain Khan Talab">Nawab Munshi Hussain Khan Talab</option>
+			  <option value="Nawab Siddiqui Hasan Khan Talaab">Nawab Siddiqui Hasan Khan Talaab</option>
+			  <option value="Jawahar Baal Udyan Lake">Jawahar Baal Udyan Lake</option>
+			  <option value="Lendiya Talab">Lendiya Talab</option>
+			  <option value="Manit Lake">Manit Lake</option>
+			  <option value="Bhojtal Lake">Bhojtal Lake</option>
+			</select>
+
 			<div class="form-check">
 			  <input class="form-check-input" type="radio" name="param" id="flexRadioDefault1" value="NDCI">
 			  <label class="form-check-label" for="flexRadioDefault1">
@@ -74,7 +93,7 @@
 
 	{% if selected_val %}
 		<div class="second" style="width:50%; margin:auto; border: 2px solid black; padding: 10px; margin-top: 10px">
-			<form method="POST" action = "/fetch/{{selected_val}}">
+			<form method="POST" action = "/fetch/{{selected_val}}/{{selected_lake}}">
 				<label for="start_date"> Start Date </label>
 				<input type="date" name = "start_date" id="start_date">
 				<br><br>
