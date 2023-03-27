@@ -91,6 +91,6 @@ def get_Salanity(start_date, end_date):
 https://user-images.githubusercontent.com/92209437/227796756-061dc239-5240-44d0-9599-c3f51babde29.mp4
 
 <br>
-This report was written and submitted by Vaasu Bisht, data science intern at an Indian healthcare start, who takes full responsibility for any mistake or inaccuracy in it.
+This report was written and submitted by Vaasu Bisht, who takes full responsibility for any mistake or inaccuracy in it.
 <br>
 
