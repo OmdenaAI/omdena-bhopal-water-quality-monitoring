@@ -105,9 +105,9 @@ Project Contributors in aplhabetical order:
 20.	Rishit Chugh 
 21.	Rishita Bansal 
 22.	Sayan Kumar
-23.     Shantanu Sugriv Kshirsagar
+23. Shantanu Sugriv Kshirsagar
 24.	Shilpa Gollamudi
 25.	Sourav Dutta 
 26.	Srijeeta Mukherjee
-27.     Vimukta Dashora 
+27. Vimukta Dashora 
 28.	Wallace Ferreira
