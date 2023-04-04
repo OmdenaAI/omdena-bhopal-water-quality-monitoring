@@ -1,0 +1,6 @@
+streamlit
+streamlit-option-menu
+seaborn
+pillow
+streamlit-folium
+plotly-express
