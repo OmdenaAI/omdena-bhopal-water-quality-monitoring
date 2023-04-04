@@ -72,3 +72,35 @@ This study aims to develop a Machine Learning system for monitoring the water qu
 
 
 **Project Leads:** [Vaasu Bisht](https://github.com/vaasu2002) and [Eeman Majumder](https://github.com/Eeman1113)
+
+**Management and HR:** [Sakshi Sawarkar](https://www.linkedin.com/in/sakshi-sawarkar-8546681aa)
+
+Project Contributors in aplhabetical order:
+
+1.	Aditya Bhate
+2.	Aiswarya Jyothirmayi Devi
+3.	Akshit Srivastava 
+4.	Ameya Sharma
+5.	Ananya Mohanty 
+6.	Ananya Tiwari
+7.	Aniruddha Kumar
+8.	Astha Srivastava 
+9.	Ayushka Behere
+10.	Dhruvil Jain
+11.	Kshitij Singh
+12.	Raj Mansuriya
+13.	Muskaan Bahri
+14.	Navneet Lamba 
+15.	Pranav Pratyush
+16.	Punya Saraogi
+17.	Pushpendra Kushwaha
+18.	Qurat Ul Aaein 
+19.	Reem Abdel-Salam
+20.	Rishit Chugh 
+21.	Rishita Bansal 
+22.	Sayan Kumar
+23.	Shilpa Gollamudi
+24.	Sourav Dutta 
+25.	Srijeeta Mukherjee
+26. Vimukta Dashora 
+27.	Wallace Ferreira
