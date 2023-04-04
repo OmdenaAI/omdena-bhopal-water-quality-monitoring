@@ -28,6 +28,12 @@ This study aims to develop a Machine Learning system for monitoring the water qu
 - Make sure your File names(jupyter notebooks, python files, data sheet file names etc) has proper naming to help others in easily identifing them.
 - Please restrict yourself from creating unnessesary folders other than in 'tasks' folder (as above mentioned naming convention) to avoid confusion. 
 
+
+## Final Dashboard 
+
+https://vaasu2002-omdena-bhopal-water-quality-dashboard-main-pzjmtf.streamlit.app/#monitoring-the-water-quality-in-bhopal-region-using-satellite-imagery-and-gis-techniques
+
+
 ## Project Structure
 
     ├── LICENSE
