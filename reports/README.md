@@ -24,7 +24,21 @@ The team developed a user-friendly visualization dashboard that integrates the p
 
 ## The Data
 
-For our water quality monitoring project in the Bhopal region, we collected data from various lakes using satellite imagery and GIS techniques. The lakes we focused on include **Upper Lake, Lower Lake, Kaliyasot dam, Kerwa Dam, Shahpura Lake, Sarangpani Lake, Motia talab, Hathaikheda dam/lake, Nawab Munshi Hussain Khan Talab, Nawab Siddiqui Hasan Khan Talaab, Jawahar Baal Udyan Lake, Lendiya Talab, Manit lake, and bhojtal lake.**
+For our water quality monitoring project in the Bhopal region, we collected data from various lakes using satellite imagery and GIS techniques. The lakes we focused on includes:-
+- Upper Lake
+- Lower Lake
+- Kaliyasot dam
+- Kerwa Dam
+- Shahpura Lake
+- Sarangpani Lake 
+- Motia talab
+- Hathaikheda dam/lake 
+- Nawab Munshi Hussain Khan Talab
+- Nawab Siddiqui Hasan Khan Talaab
+- Jawahar Baal Udyan Lake 
+- Lendiya Talab
+- Manit lake
+- Bhojtal lake
 
 To effectively monitor the water quality in these lakes, we collected various parameters related to water quality, including **pH, salinity, turbidity, temperature, chlorophyll, suspended matter, dissolved oxygen, and dissolved organic matter (DOM)**. These parameters were chosen based on their relevance to water quality and their ability to provide insights into the health of the lakes.
 
