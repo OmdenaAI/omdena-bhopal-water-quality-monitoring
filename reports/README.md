@@ -119,8 +119,23 @@ This report was written and submitted by Vaasu Bisht, who takes full responsibil
   <img width="60%" height="60%" src="images/Drinking Water Quality.png">
 </p>
 
-#### [Conclusion]
+#### Conclusion
 
 <p align="center">
   <img width="60%" height="60%" src="images/Quality of water@1.5x.png">
+</p>
+
+
+### Is Algae (Chlorophyll) affecting the Lake?
+
+#### [Dashboard](https://public.tableau.com/app/profile/aniruddha.kumar/viz/OmdenaBhopal-LendiyaLake/DOvsCvsTurb)
+
+<p align="center">
+  <img width="60%" height="60%" src="images/DO vs C vs Turb.png">
+</p>
+
+#### Conclusion
+
+<p align="center">
+  <img width="60%" height="60%" src="images/DO,cholorophyll & Turbidity@1.5x.png">
 </p>
