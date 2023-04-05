@@ -18,6 +18,8 @@ The challenge, which united an international team of AI engineers over 5 weeks, 
 
 **The GitHub repository for the project will be made available shortly after the project completion:**
 
+https://github.com/OmdenaAI/omdena-bhopal-water-quality-monitoring/
+
 
 # Our solution
 The team developed a user-friendly visualization dashboard that integrates the processed data from satellite imagery and GIS techniques. The dashboard provides real-time updates on key water quality parameters, including temperature, pH, dissolved oxygen, and turbidity. It also allows for easy monitoring of trends and patterns in the data, enabling users to quickly identify any discrepancies in water quality and take necessary corrective action. The dashboard's visually appealing interface and user-friendly design make it an effective tool for decision-making and collaboration between various stakeholders, including government agencies, NGOs, and local communities. Overall, the dashboard is a valuable asset in the ongoing efforts to protect and improve the water quality in the Bhopal region.
