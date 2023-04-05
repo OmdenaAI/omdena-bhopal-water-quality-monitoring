@@ -104,9 +104,23 @@ This report was written and submitted by Vaasu Bisht, who takes full responsibil
   <img width="60%" height="60%" src="images/Temperature-Dash.png">
 </p>
 
-#### [Conclusion]
+#### Conclusion:-
 
 <p align="center">
   <img width="60%" height="60%" src="images/Temperature Conclusion@1.5x.png">
 </p>
 
+
+### What is water-quality of the Lake ?
+
+#### [Dashboard](https://public.tableau.com/app/profile/aniruddha.kumar/viz/OmdenaBhopal-LendiyaLake/DrinkingWaterQuality)
+
+<p align="center">
+  <img width="60%" height="60%" src="images/Drinking Water Quality.png">
+</p>
+
+#### [Conclusion]
+
+<p align="center">
+  <img width="60%" height="60%" src="images/Quality of water@1.5x.png">
+</p>
