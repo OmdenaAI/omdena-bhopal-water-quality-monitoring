@@ -41,6 +41,7 @@ For our water quality monitoring project in the Bhopal region, we collected data
 - Bhojtal lake
 
 To effectively monitor the water quality in these lakes, we collected various parameters related to water quality, including:-
+
 - pH
 - salinity
 - turbidity
@@ -49,6 +50,7 @@ To effectively monitor the water quality in these lakes, we collected various pa
 - suspended matter 
 - dissolved oxygen
 - dissolved organic matter (DOM) 
+
 These parameters were chosen based on their relevance to water quality and their ability to provide insights into the health of the lakes.
 
 ## Data Collection 
