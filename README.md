@@ -81,38 +81,38 @@ https://vaasu2002-omdena-bhopal-water-quality-dashboard-main-pzjmtf.streamlit.ap
 
 **Management and HR:** [Sakshi Sawarkar](https://www.linkedin.com/in/sakshi-sawarkar-8546681aa)
 
-Project Contributors in aplhabetical order:
+Project Contributors in aplhabetical order:<br>
 
-1	Aditya Bhate
-2	Aiswarya Jyothirmayi Devi
-3	Akshit Srivastava
-4	Aman Makwana
-5	Ameya Sharma
-6	Ananya Mohanty
-7	Ananya Tiwari
-8	Aniruddha Kumar
-9	Astha Srivastava
-10	Ayushka Behere
-11	Dhruvil Jain
-12	Kshitij Singh
-13	Lauren Williams
-14	Modekurthi Subrahmanya Satwick 
-15	Muskaan Bahri
-16	Navneet Lamba
-17	Pranav Pratyush
-18	Punya Saraogi
-19	Pushpendra Kushwaha
-20	Qurat Ul Aaein
-21	Raj Mansuriya
-22	Reem Abdel-Salam
-23	Rishit Chugh
-24	Rishita Bansal
-25	Sayan Kumar
-26	Shantanu Sugriv Kshirsagar
-27	Shashank Singh
-28	Shilpa Gollamudi
-29	Shinjan Verma
-30	Sourav Dutta
-31	Srijeeta Mukherjee
-32	Vimukta Dashora
-33	Wallace Ferreira
+1	Aditya Bhate<br>
+2	Aiswarya Jyothirmayi Devi<br>
+3	Akshit Srivastava<br>
+4	Aman Makwana<br>
+5	Ameya Sharma<br>
+6	Ananya Mohanty<br>
+7	Ananya Tiwari<br>
+8	Aniruddha Kumar<br>
+9	Astha Srivastava<br>
+10	Ayushka Behere<br>
+11	Dhruvil Jain<br>
+12	Kshitij Singh<br>
+13	Lauren Williams<br>
+14	Modekurthi Subrahmanya Satwick <br>
+15	Muskaan Bahri<br>
+16	Navneet Lamba<br>
+17	Pranav Pratyush<br>
+18	Punya Saraogi<br>
+19	Pushpendra Kushwaha<br>
+20	Qurat Ul Aaein<br>
+21	Raj Mansuriya<br>
+22	Reem Abdel-Salam<br>
+23	Rishit Chugh<br>
+24	Rishita Bansal<br>
+25	Sayan Kumar<br>
+26	Shantanu Sugriv Kshirsagar<br>
+27	Shashank Singh<br>
+28	Shilpa Gollamudi<br>
+29	Shinjan Verma<br>
+30	Sourav Dutta<br>
+31	Srijeeta Mukherjee<br>
+32	Vimukta Dashora<br>
+33	Wallace Ferreira<br>
