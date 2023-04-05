@@ -83,33 +83,36 @@ https://vaasu2002-omdena-bhopal-water-quality-dashboard-main-pzjmtf.streamlit.ap
 
 Project Contributors in aplhabetical order:
 
-1.	Aditya Bhate
-2.	Aiswarya Jyothirmayi Devi
-3.	Akshit Srivastava 
-4.	Ameya Sharma
-5.	Ananya Mohanty 
-6.	Ananya Tiwari
-7.	Aniruddha Kumar
-8.	Astha Srivastava 
-9.	Ayushka Behere
-10.	Dhruvil Jain
-11.	Kshitij Singh
-12.	Raj Mansuriya
-13.	Muskaan Bahri
-14.	Navneet Lamba 
-15.	Pranav Pratyush
-16.	Punya Saraogi
-17.	Pushpendra Kushwaha
-18.	Qurat Ul Aaein 
-19.	Reem Abdel-Salam
-20.	Rishit Chugh 
-21.	Rishita Bansal 
-22.	Sayan Kumar
-23. Shantanu Sugriv Kshirsagar
-24. Shashank Singh
-25.	Shilpa Gollamudi
-26. Shinjan Verma
-27.	Sourav Dutta 
-28.	Srijeeta Mukherjee
-29. Vimukta Dashora 
-30.	Wallace Ferreira
+1	Aditya Bhate
+2	Aiswarya Jyothirmayi Devi
+3	Akshit Srivastava
+4	Aman Makwana
+5	Ameya Sharma
+6	Ananya Mohanty
+7	Ananya Tiwari
+8	Aniruddha Kumar
+9	Astha Srivastava
+10	Ayushka Behere
+11	Dhruvil Jain
+12	Kshitij Singh
+13	Lauren Williams
+14	Modekurthi Subrahmanya Satwick 
+15	Muskaan Bahri
+16	Navneet Lamba
+17	Pranav Pratyush
+18	Punya Saraogi
+19	Pushpendra Kushwaha
+20	Qurat Ul Aaein
+21	Raj Mansuriya
+22	Reem Abdel-Salam
+23	Rishit Chugh
+24	Rishita Bansal
+25	Sayan Kumar
+26	Shantanu Sugriv Kshirsagar
+27	Shashank Singh
+28	Shilpa Gollamudi
+29	Shinjan Verma
+30	Sourav Dutta
+31	Srijeeta Mukherjee
+32	Vimukta Dashora
+33	Wallace Ferreira
