@@ -92,3 +92,21 @@ https://user-images.githubusercontent.com/92209437/227796756-061dc239-5240-44d0-
 This report was written and submitted by Vaasu Bisht, who takes full responsibility for any mistake or inaccuracy in it.
 <br>
 
+
+
+## Research Questions:
+
+### What is the variation for Temperature in Monsoon & Before/After Pandemic?
+
+#### [Dashboard](https://public.tableau.com/views/OmdenaBhopal-LendiyaLake/Temperature-Dash?:language=en-US&:increment_view_count=no&:embed=y&:embed_code_version=3&:loadOrderID=0&:display_count=y&:origin=viz_share_link)
+
+<p align="center">
+  <img width="60%" height="60%" src="images/Temperature-Dash.png">
+</p>
+
+#### [Conclusion]
+
+<p align="center">
+  <img width="60%" height="60%" src="images/Temperature Conclusion@1.5x.png">
+</p>
+
