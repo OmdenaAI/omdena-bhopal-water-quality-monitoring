@@ -111,7 +111,7 @@ This report was written and submitted by Vaasu Bisht, who takes full responsibil
 </p>
 
 
-### What is water-quality of the Lake ?
+### What is pre-monsoon and post-monsoon analysis?
 
 #### [Dashboard](https://public.tableau.com/app/profile/aniruddha.kumar/viz/OmdenaBhopal-LendiyaLake/DrinkingWaterQuality)
 
