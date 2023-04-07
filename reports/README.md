@@ -166,3 +166,7 @@ This report was written and submitted by Vaasu Bisht, who takes full responsibil
 <p align="center">
   <img width="60%" height="60%" src="images/DO,cholorophyll & Turbidity@1.5x.png">
 </p>
+
+
+
+This report was written and submitted by Vaasu Bisht, who takes full responsibility for any mistake or inaccuracy in it.
